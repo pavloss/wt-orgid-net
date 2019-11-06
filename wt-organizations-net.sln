@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindingTreeOrganizationsNet", "wt-organizations-net\WindingTreeOrganizationsNet.csproj", "{A15F4525-A0D0-4333-BA76-8F1FAC44F28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindingTreeOrganizationConsoleTest", "WindingTreeOrganizationConsoleTest\WindingTreeOrganizationConsoleTest.csproj", "{22EED53D-2136-41A1-8EC9-7EAF68A6F2FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A15F4525-A0D0-4333-BA76-8F1FAC44F28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15F4525-A0D0-4333-BA76-8F1FAC44F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15F4525-A0D0-4333-BA76-8F1FAC44F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15F4525-A0D0-4333-BA76-8F1FAC44F28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22EED53D-2136-41A1-8EC9-7EAF68A6F2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EED53D-2136-41A1-8EC9-7EAF68A6F2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EED53D-2136-41A1-8EC9-7EAF68A6F2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EED53D-2136-41A1-8EC9-7EAF68A6F2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B576282-32FC-4FA1-862B-B2C8E337D3A4}
+	EndGlobalSection
+EndGlobal

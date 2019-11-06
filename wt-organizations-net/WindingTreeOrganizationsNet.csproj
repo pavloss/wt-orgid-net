@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>WindingTreeOrganizationsNet</RootNamespace>
+    <AssemblyName>WindingTreeOrganizationsNet</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="3.4.0" />
+    <PackageReference Include="Nethereum.HdWallet" Version="3.4.0" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ABIs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="IWindingTreeNetCore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ABIs\Organization.json" />
+    <None Remove="ABIs\OrganizationFactory.json" />
+    <None Remove="ABIs\SegmentDirectory.json" />
+    <None Remove="ABIs\WindingTreeEntrypoint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ABIs\Organization.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ABIs\OrganizationFactory.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ABIs\SegmentDirectory.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ABIs\WindingTreeEntrypoint.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABIs\Organization.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABIs\OrganizationFactory.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABIs\SegmentDirectory.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABIs\WindingTreeEntrypoint.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
